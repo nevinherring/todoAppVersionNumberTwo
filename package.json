@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc"
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "serve": "browser-sync start --server --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.14",
     "typescript": "3.4.4"
   }
 }
